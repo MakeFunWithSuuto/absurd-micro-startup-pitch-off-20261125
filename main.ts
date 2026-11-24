@@ -1,7 +1,7 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 
 const PITCH =
-  "Charges HOA dog owners $9/month plus coffee costs: a lazy AI agent naps until a bark-collar pings 30 seconds, then texts the neighbor a $5 latte and haiku apology before they call the board.";
+  "A $9/month service for HOA dog owners: a lazy AI agent naps on a bark-collar webhook, waking to text custom haiku apologies and a $5 latte (at cost) before Karen files a noise complaint.";
 
 mkdirSync("/output", { recursive: true });
 writeFileSync("/output/entry.txt", PITCH, "utf8");
